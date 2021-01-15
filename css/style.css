@@ -14,11 +14,12 @@ h1{
   color: white;
   text-shadow: 2px 2px grey;
   font-size: 80px;
+  margin-bottom: 5px;
 }
 
 .card{
   display: inline-block;
-  margin:8px;
+  margin:10px;
   height: 200px;
   width: 200px;
   background-color: white;
@@ -50,6 +51,9 @@ h1{
   height: 150px;
   width: 150px;
   margin: auto;
+  position: absolute;
+  top: 0;
+  left: 30px;
 }
 
 .card:hover .text{
@@ -58,7 +62,7 @@ h1{
   text-shadow: 2px 2px grey;
   position: absolute;
   bottom: 0px;
-  left: 10px;
+  left: 30px;
 }
 
 .pink{
@@ -95,6 +99,9 @@ footer{
   width: 150px;
   margin: auto;
   border-radius: 5%;
+  position: absolute;
+  top: 0;
+  left: 30px;
 }
 
 .plain{
@@ -103,4 +110,5 @@ footer{
   font-size: 30px;
   position: absolute;
   bottom: 0px;
+  left: 30px;
 }
