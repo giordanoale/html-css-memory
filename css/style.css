@@ -84,3 +84,23 @@ h1{
 .red{
   color:red;
 }
+
+footer{
+  margin: 10px;
+  font-size: 20px;
+}
+
+.still {
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  border-radius: 5%;
+}
+
+.plain{
+  text-shadow: 2px 2px grey;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0px;
+}
