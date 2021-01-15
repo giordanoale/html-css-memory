@@ -18,15 +18,20 @@ h1{
 
 .card{
   display: inline-block;
-  margin:3px;
+  margin:8px;
   height: 200px;
   width: 200px;
   background-color: white;
   border-radius: 5%;
   box-shadow: 2px 2px grey;
+  position: relative;
 }
 
 .front{
+  display: none;
+}
+
+.text{
   display: none;
 }
 
@@ -45,8 +50,15 @@ h1{
   height: 150px;
   width: 150px;
   margin: auto;
-  text-align: center;
+}
+
+.card:hover .text{
+  display: block;
+  font-size: 30px;
   text-shadow: 2px 2px grey;
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
 }
 
 .pink{
@@ -67,4 +79,8 @@ h1{
 
 .orange{
   color: orange;
+}
+
+.red{
+  color:red;
 }
