@@ -26,13 +26,41 @@ h1{
   box-shadow: 2px 2px grey;
 }
 
+.front{
+  display: none;
+}
+
 .back{
   height: 200px;
   width: 200px;
   border-radius: 5%;
 }
 
-
 .card:hover .back{
   display: none;
+}
+
+.card:hover .front{
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  text-shadow: 2px 2px grey;
+}
+
+.pink{
+  color: pink;
+}
+
+.blue{
+  color: blue;
+}
+
+.green{
+  color: green;
+}
+
+.lightblue{
+  color: lightblue;
 }
