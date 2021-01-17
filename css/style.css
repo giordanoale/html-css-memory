@@ -1,3 +1,4 @@
+/* regole generali */
 *{
   margin:0;
   padding: 0;
@@ -9,16 +10,23 @@ body{
   background-color: #ADD8E6;
   text-align: center;
 }
+/* /regole generali */
 
+/* intestazione */
 h1{
   color: white;
   text-shadow: 2px 2px grey;
   font-size: 80px;
   margin-bottom: 5px;
 }
+/* /intestazione */
 
+/* corpo principale */
 .card{
   display: inline-block;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+  background-size: contain;
   margin:10px;
   height: 200px;
   width: 200px;
@@ -36,14 +44,8 @@ h1{
   display: none;
 }
 
-.back{
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-}
-
-.card:hover .back{
-  display: none;
+.card:hover{
+  background-image: none;
 }
 
 .card:hover .front{
@@ -88,12 +90,16 @@ h1{
 .red{
   color:red;
 }
+/* /corpo principale */
 
+/* footer */
 footer{
   margin: 10px;
   font-size: 20px;
 }
+/* /footer */
 
+/* carta scoperta */
 .still {
   height: 150px;
   width: 150px;
@@ -112,3 +118,15 @@ footer{
   bottom: 0px;
   left: 30px;
 }
+
+.no-back{
+  display: inline-block;
+  margin:10px;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 5%;
+  box-shadow: 2px 2px grey;
+  position: relative;
+}
+/* /carta scoperta */
